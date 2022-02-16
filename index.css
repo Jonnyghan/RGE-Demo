@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Teko&display=swap');
+
+/* Global styles */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "PT Sans",monospace;
+
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: #ffffff;
+  background: rgb(58, 137, 156);
+  
+}
+
+#numbers{
+    text-align: center;
+    font-size: 25px;
+}
+
+#result-top{
+    border: 1px solid #ffffff;
+    font-size: 25px;
+    align-items: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: auto;
+    
+}
+
+#result-left{
+    border: 1px solid #ffffff;
+    font-size: 25px;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 50%;
+    width: auto;
+    
+}
+
+#result-right{
+    border: 1px solid #ffffff;
+    font-size: 25px;
+    align-items: center;
+    margin-left: 50%;
+    margin-right: 30%;
+    margin-top: -6.2%;
+    width: auto;
+    
+}
+
+#result-bottom{
+    border: 1px solid #ffffff;
+    font-size: 25px;
+    align-items: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: auto;
+    
+}
+
+h1,h2,h3{
+ text-align: center;
+}
+
+footer{
+    text-align: center;
+    margin-top: 5%;
+    display: block;
+}
+
+.myButton {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+    margin: auto;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+    margin-left: 42%;
+   margin-top: 2%;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+   
